@@ -1,0 +1,48 @@
+/*it is the css code of "Skills" section*/
+header{
+    text-align-last:right;
+    display:inline-block;
+    width:98%;
+   /* margin:25px;*/
+   /* padding:20px 0;*/
+    align-items:center;
+    justify-content:space-around;
+    font-size:20px;
+}
+h2{
+    text-align:center;
+    font-style:italic;
+    color:black;
+    text-decoration:underline;
+    font-size:60px;
+}
+*{
+  box-sizing:border-box;
+}
+.column{
+    height:100px;
+    float:left;
+    width:33.33%;
+    padding:5px;
+    border-color: black;
+}
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+    border:2px solid black;
+    border-color:black;
+}
+Body{
+    background-color:burlywood;
+    Background-image:url("skil.png");
+    Background-size:cover;
+}
+h4{
+    font-size:20px;
+    text-decoration:underline;
+}
+p{
+    font-size:35px;
+    font-display:inherit;
+}

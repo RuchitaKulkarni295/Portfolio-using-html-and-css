@@ -1,0 +1,73 @@
+/*it is the css code of "Home" page*/
+*{
+    margin:0;
+    padding:0;
+}
+Body{
+    Background-color:rgb(246, 106, 209);
+    Background-image:url("backg.png");
+    background-size:cover;
+}
+h2{
+    color:rgba(221, 7, 114, 0.897);
+    font-style:italic;
+    text-align:center;
+    text-decoration:underline;
+    font-size:50px;
+    text-align:center;
+    text-shadow:2cm ;
+    height:50px;
+}
+.website{
+    position:relative;
+    width:100%;
+    height:100vh;
+}
+nav{
+    display:flex;
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    align-items:center;
+    justify-content:space-between;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li{
+    text-decoration:none;
+    color:#160606;
+    font-weight:bold;
+}
+.website1{
+    margin-left:8%;
+    margin-top:13%;
+}
+.website1 h1{
+    font-size:50px;
+    color:rgb(18, 17, 18);
+    margin-bottom:50px;
+    text-decoration:underline;
+}
+span{
+    color:rgb(231, 12, 121);
+}
+.website1 p{
+    color:rgb(21, 21, 182);
+    line-height:22px;
+    text-decoration:underline;
+    font-style:italic;
+}
+.website1{
+    /*background:#212121;*/
+    padding:10px 18px;
+    text-decoration:none;
+    font-weight:bold;
+    display:inline-block;
+    margin:30px 0;
+    border-radius:5px;
+    text-decoration:underline;
+}
+
